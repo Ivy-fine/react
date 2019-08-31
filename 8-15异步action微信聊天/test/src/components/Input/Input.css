@@ -1,0 +1,15 @@
+.input{
+    padding: 10px;
+    display: flex;
+}
+input{
+    flex: 1;
+    height: 100%;
+    padding: 10px;
+}
+button{
+    width: 80px;
+    height: 100%;
+    border: none;
+    background: palegreen;
+}

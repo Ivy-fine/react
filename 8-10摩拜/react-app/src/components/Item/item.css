@@ -1,0 +1,16 @@
+.item{
+    padding: 10px;
+    border-top: 1px solid #eee;
+    text-decoration: none;
+    display: block;
+}
+.item p{
+    margin-bottom: 10px;
+    color: #000;
+}
+.item p span{
+    float: right;
+}
+.item p.desc{
+    color: #999;
+}

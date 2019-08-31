@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+html,body,#root,.app{
+    width: 100%;
+    height: 100%;
+}
+h3{
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    font-weight: normal;
+    background: #eee;
+}
+i{
+    font-style: normal;
+    padding-right: 10px;
+    font-size: 20px;
+    color: #999;
+    font-weight: bold;
+}

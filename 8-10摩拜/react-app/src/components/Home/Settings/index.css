@@ -1,0 +1,31 @@
+.settings{
+    padding: 15px;
+}
+.banner{
+    height: 80px;
+    background: #eee;
+    border-radius: 10px;
+}
+.bag{
+    height: 100px;
+    display: flex;
+    border-bottom: 1px solid #eee;
+    padding-top: 30px;
+}
+.bag span{
+    flex: 1;
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+}
+.bag span b{
+    font-size: 18px;
+    color: #000;
+}
+.options p{
+    line-height: 50px;
+}
+.options p span{
+    color: #999;
+    float: right;
+}

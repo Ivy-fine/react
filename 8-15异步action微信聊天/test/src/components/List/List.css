@@ -1,0 +1,36 @@
+.list{
+    background: #eee;
+    padding: 10px 0;
+}
+.item{
+    display: flex;
+}
+.avatar{
+    padding: 10px;
+}
+.msg{
+    flex: 1;
+}
+.msg span{
+    color: #999;
+}
+.msg .text p{
+    max-width: 200px;
+    background: palegreen;
+    line-height: 25px;
+    padding: 10px;
+    overflow-wrap: break-word;
+    float: left;
+}
+.item:nth-child(odd){
+    flex-direction: row-reverse;
+}
+.item:nth-child(odd) .msg{
+    text-align: right;
+}
+.item:nth-child(odd) .msg .text{
+    text-align: left;
+}
+.item:nth-child(odd) .msg .text p{
+    float: right;
+}

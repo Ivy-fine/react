@@ -1,0 +1,30 @@
+.editadd{
+    width: 100%;
+    height: 100%;
+}
+h3 b{
+    font-size: 14px;
+    color: #666;
+    position: absolute;
+    right: 15px;
+    top: 0px;
+}
+.info p{
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    border-bottom: 1px solid #eee;
+}
+.info p span{
+    width: 100px;
+}
+.info p input{
+    border: none;
+    outline: none;
+}
+button{
+    height: 50px;
+    background-color: mediumturquoise;
+    width: 100%;
+    border: none;
+}
