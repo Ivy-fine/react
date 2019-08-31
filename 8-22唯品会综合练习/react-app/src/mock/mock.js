@@ -1,0 +1,22 @@
+import Mock from 'mockjs'
+Mock.mock("/getlist",'get',{
+    "status":200,
+    "list|15":[{
+        "navtitle":"@ctitle(2,4)",
+        "cont|2":[{
+            "subtitle":"@ctitle(2,4)",
+            "subcont|6-9":[{
+                "id":'@id',
+                "pic":'@image(100x100)',
+                "title":'@ctitle(2,4)',
+                "goods|6-8":[{
+                    "id":'@id',
+                    "pic":"@image(200x200)",
+                    "price|20-99":0,
+                    "text":'@csentence',
+                    "count":1
+                }]
+            }]
+        }]
+    }]
+})

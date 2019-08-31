@@ -1,0 +1,10 @@
+p#dialog{
+    position: fixed;
+    left: 50%;
+    bottom: 80px;
+    transform: translate(-50%);
+    background: rgba(0, 0, 0, .5);
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+}

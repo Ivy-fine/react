@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+html,body,#root,.app{
+    width: 100%;
+    height: 100%;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.wrap nav{
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-around;
+}
+.wrap nav span.active{
+    color: red;
+}
+
+.classify{
+    width: 100%;
+    flex: 1;
+    display: flex;
+}
+.classify .left{
+    width: 100px;
+    height: 100%;
+    overflow-y: auto;
+    background: #eee;
+}
+.classify .left p{
+    line-height: 50px;
+    text-align: center;
+}
+.classify .left p.active{
+    background: #fff;
+    border-left: 2px solid salmon;
+}
+.classify .right{
+    flex: 1;
+    overflow-y: auto;
+}
+.classify .right .rightitem{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.classify .right .rightitem h5{
+    line-height: 30px;
+}
+.classify .right .rightitem .subnav{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+.classify .right .rightitem .subnav .subnavitem{
+    width: 75px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.classify .right .rightitem .subnav .subnavitem img{
+    width: 100%;
+}
+.classify .right .rightitem .subnav .subnavitem p{
+    text-align: center;
+    font-size: 14px;
+}
+.goodsbox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.goodsbox h3{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+.goodslist{
+    flex: 1;
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.goodsitem{
+    width: 150px;
+    margin-left: 25px;
+}
+.goodsitem img{
+    width: 100%;
+}
+.goodsitem .desc{
+    font-size: 14px;
+    color: #999999;
+}
+.detail{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.detail .info{
+    flex: 1;
+    padding: 10px;
+}
+.detail .info img{
+    width: 100%;
+}
+.detail .bottom{
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.detail .bottom button{
+    height: 50px;
+    border: none;
+    background: #ff9900;
+    color: #fff;
+    padding: 0 20px;
+}
+.shopcart{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.shopcart h3{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+.shopcart .cartlist {
+    flex: 1;
+    overflow-y: auto;
+}
+.shopcart .cartlist .nothing{
+    text-align: center;
+    line-height: 100px;
+}
+.shopcart .cartlist .cartitem{
+    display: flex;
+    padding: 20px 0px;
+    padding-bottom: 50px;
+    margin: 0 10px;
+    position: relative;
+    border-bottom: 1px solid #eee;
+}
+.shopcart .cartlist .cartitem .pic{
+    width: 80px;
+    margin-right: 10px;
+}
+.shopcart .cartlist .cartitem .pic img{
+    width: 100%;
+}
+.shopcart .cartlist .cartitem .count{
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+}
+.shopcart .cartlist .cartitem .count button{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.shopcart .cartlist .cartitem .count span{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+.shopcart .cartlist .cartitem .delete{
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    font-weight: normal;
+}
+.shopcart .cartlist .cartitem .price{
+    padding-left: 10px;
+    width: 50px;
+}
+.shopcart .cartlist .cartitem .desc{
+    flex: 1;
+}
